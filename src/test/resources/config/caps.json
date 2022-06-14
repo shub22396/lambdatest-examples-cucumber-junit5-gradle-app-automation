@@ -1,0 +1,54 @@
+{
+  "user": "shubhamr",
+  "key": "CCCCTfelp95y0WKq0MSKORBzWD7xpFGOTv5KlMTZ18qnAcGjId",
+  "application_endpoint": "",
+  "tests": {
+    "parallel": {
+      "common_caps": {
+        "project": "lambdatest Demo",
+        "build": "App Automation"
+
+      },
+      "env_caps": [
+        {
+          "deviceName": "Galaxy S8+",
+          "platformVersion": "7",
+          "isRealMobile": "true",
+          "app": "lt://APP100202361654784011637855",
+          "platformName": "Android"
+        },
+        {
+          "deviceName": "Galaxy A31",
+          "platformVersion": "10",
+          "isRealMobile": "true",
+          "app": "lt://APP100202361654784011637855",
+          "platformName": "Android"
+        },
+        {
+          "deviceName": "Galaxy S20",
+          "platformVersion": "11",
+          "isRealMobile": "true",
+          "app": "lt://APP100202361654784011637855",
+          "platformName": "Android"
+        }
+      ]
+    },
+    "single": {
+      "common_caps": {
+        "project": "Lambdatest app automation Demo",
+        "build": "Automate Single lambdatest Demo",
+        "name": "Single Test App Automation "
+
+      },
+      "env_caps": [
+        {
+          "deviceName": "Galaxy S20",
+          "platformVersion": "11",
+          "isRealMobile": "true",
+          "app": "lt://APP100202361654784011637855",
+          "platformName": "Android"
+        }
+      ]
+    }
+  }
+}
